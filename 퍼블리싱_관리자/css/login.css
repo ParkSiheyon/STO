@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* color */
+
+:root {
+    --text-color: #2B3674;
+    --main-color: #4318FF;
+    --line-color: #E0E5F2;
+    --line-color2: #E9EDF7;
+    --gray-color: #A3AED0;
+    --small-text: #707EAE;
+    --search-box: #F4F7FE;
+    --skyblue-color: #18A0FB;
+    --deep-skyblue: #4690FF;
+    --name-color: #8F9BBA;
+    --paging-color: #1E1E1E;
+    --red-color: #FF0000;
+    --blue-color: #195FBB;
+    --table-color: #F2F2F2;
+}
+
+/* 공통 */
+
+.point {
+    color: var(--main-color);
+}
+
+.wrap {
+    padding: 17rem 23.3rem;
+}
+
+/* login */
+
+.login_content {
+    width: 41rem;
+    margin: 6.065rem 4.2rem;
+}
+
+.login_content h1 {
+    margin-bottom: 1rem;
+}
+
+label.outer {
+    font-size: 1.4rem;
+    letter-spacing: -2%;
+}
+
+.input_text {
+    margin-top: 1.3rem;
+}
+
+.input_id {
+    margin-bottom: 2.4rem;
+}
+
+.input_pw {
+    margin-bottom: 1.2rem;
+}
+
+.login_btn {
+    margin-top: 2.4rem;
+}

@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    margin: 0;
+    }
+
+html,body {
+    font-size: 10px;
+    }
+
+    
+button, a, input, select, label {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.hd_wrap {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 1920px;
+    border-bottom: 1px solid rgba(254, 254, 255, 0.3);
+    box-shadow: 0px -3px 42px rgba(0, 0, 0, 0.05);
+}
+
+.section_01 {
+    height: 60rem;
+    background: url(../img/img-investlist_main.svg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

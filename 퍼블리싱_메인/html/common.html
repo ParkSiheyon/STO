@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컴포넌트</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <h1>컴포넌트 복붙해서 사용! 길이는 알아서 조율하도록해라</h1>
+    <!-- 버튼 -->
+    <button class="btn bg_or">버튼</button>
+    <button class="btn bg_wh">버튼</button>
+    <button class="btn bg_lineor">버튼</button>
+    <button class="btn invertbtn bg_blor">버튼</button>
+    <button class="btn invertbtn bg_orbl">버튼</button>
+    <!-- 페이지네이션 -->
+    <ul class="paging">
+        <li><img src="../img/ico-prev.svg" alt="prev"></li>
+        <li class="p_num on">1</li>
+        <li class="p_num">2</li>
+        <li class="p_num">3</li>
+        <li class="p_num">4</li>
+        <li class="p_num">5</li>
+        <li><img src="../img/ico-next.svg" alt="next"></li>
+    </ul>
+    <!-- input요소 -->
+    <p>input</p>
+    <div class="input_text">
+        <label for="ab1" class="inner">ab</label>
+        <input type="text" name="ab" class="focus" id="ab1">
+    </div>
+    <!-- 드롭다운 -->
+    <p>드롭다운</p>
+    <select class="select">
+        <option disabled selected>전체 게시판</option>
+        <option value="notice01">게시판1</option>
+        <option value="notice02">게시판2</option>
+        <option value="notice03">게시판3</option>
+        <option value="notice04">게시판4</option>
+    </select>
+    <!-- 체크박스 -->
+    <p>체크박스</p>
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox" class="checkbox" id="cb1">
+        <label for="cb1"></label>
+        <label for="cb1" class="cb_txt">SMS</label>
+    </div>
+    <!-- radio -->
+    <p>radio</p>
+    <div class="radio">
+        <input type="radio" name="radio" class="radio" id="ra1">
+        <label for="ra1"></label>
+        <label for="ra1" class="ra_txt">수신거부</label>
+        <input type="radio" name="radio" class="radio" id="ra2">
+        <label for="ra2"></label>
+        <label for="ra2" class="ra_txt">수신</label>
+    </div>
+</body>
+</html>

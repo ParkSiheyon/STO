@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+:root {
+    --btn-bg1: #ff9122;
+    --btn-bg2: #222222;
+    --white: #ffffff;
+    --black: #575759;
+    --gr-bg01:linear-gradient(180deg, #FFA142 0%, #EB7D17 100%);
+    --gr-bh02:linear-gradient(180deg, #222222 0%, #4F4F4F 100%);
+    --point: #C3FCF1;
+    --line-color: #C7C7CB;
+    --paging-color: #959598;
+  }
+  

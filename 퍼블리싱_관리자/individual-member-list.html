@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부동산 STO - 관리자페이지</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/individual-member-list.css">
+    <script src="./script/jquery-3.6.0.js"></script>
+    <script src="./script/common.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">
+                <img src="./img/logo-header.svg" alt="logo">
+            </div>
+            <div class="line"></div>
+            <nav class="nav">
+                <ul>
+                    <li class="on">
+                        <div class="menu_icon"></div>
+                        <p>회원관리</p>
+                    </li>
+                    <li>
+                        <div class="menu_icon"></div>
+                        <p>투자내역조회</p>
+                    </li>
+                    <li>
+                        <div class="menu_icon"></div>
+                        <p>투자상품관리</p>
+                    </li>
+                    <li>
+                        <div class="menu_icon"></div>
+                        <p>토큰관리</p>
+                    </li>
+                    <li>
+                        <div class="menu_icon"></div>
+                        <p>메인화면관리</p>
+                    </li>
+                    <li>
+                        <div class="menu_icon"></div>
+                        <p>고객지원관리</p>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+
+            <div class="title_bar">
+                <div class="title">
+                    <div class="small_title">Pages / 회원관리</div>
+                    <h2>회원관리 - 개인회원</h2>
+                </div>
+                <div class="profile_bar">
+                    <div class="name_bar">
+                        <span class="bold">D.S</span>_master
+                    </div>
+                    <button class="logout_btn">로그아웃</button>
+                </div>
+            </div>
+
+            <div class="box top_tab">
+                <ul>
+                    <li class="on">개인회원</li>
+                    <li>중개사</li>
+                    <li>관리자</li>
+                </ul>
+            </div>
+
+            <div class="box contents">
+                <h3>개인회원</h3>
+                <div class="table_top">
+                    <p class="table_title">회원 목록<span class="small">(총 6건)</span></p>
+                    <div class="search_button">
+                        <div class="input_search">
+                            <label for="search1">Search</label>
+                            <input type="text" name="search" class="focus search" id="search1">
+                        </div>
+                        <button class="skyblue_line_btn">엑셀다운로드</button>
+                    </div>
+                </div>
+                <div class="table">
+                    <ul>
+                        <li class="table_name">
+                            <p class="t1">No.</p>
+                            <p class="t2">이름</p>
+                            <p class="t3">휴대폰번호</p>
+                            <p class="t4">이메일</p>
+                            <p class="t5">중개사</p>
+                            <p class="t6">중개사코드</p>
+                            <p class="t7">투자금</p>
+                            <p class="t8">가입일</p>
+                            <p class="t9">마지막 접속일</p>
+                            <p class="t10">비고</p>
+                        </li>
+                        <li class="table_line"></li>
+                        <li class="table_con">
+                            <p class="t1">5</p>
+                            <p class="t2">홍길동</p>
+                            <p class="t3">010-1235-2456</p>
+                            <p class="t4">honggildong@naver.com</p>
+                            <p class="t5">MH</p>
+                            <p class="t6">MH0001</p>
+                            <p class="t7">100,000,000원</p>
+                            <p class="t8">2022-10-22</p>
+                            <p class="t9">2022-10-22 14:22</p>
+                            <p class="t10">100억 이상 투자 하신다고 함</p>
+                        </li>
+                        <li class="table_con">
+                            <p class="t1">4</p>
+                            <p class="t2">홍길동</p>
+                            <p class="t3">010-1235-2456</p>
+                            <p class="t4">honggildong@naver.com</p>
+                            <p class="t5">MH</p>
+                            <p class="t6">MH0001</p>
+                            <p class="t7">100,000,000원</p>
+                            <p class="t8">2022-10-22</p>
+                            <p class="t9">2022-10-22 14:22</p>
+                            <p class="t10">100억 이상 투자 하신다고 함</p>
+                        </li>
+                        <li class="table_con">
+                            <p class="t1">3</p>
+                            <p class="t2">홍길동</p>
+                            <p class="t3">010-1235-2456</p>
+                            <p class="t4">honggildong@naver.com</p>
+                            <p class="t5">MH</p>
+                            <p class="t6">MH0001</p>
+                            <p class="t7">100,000,000원</p>
+                            <p class="t8">2022-10-22</p>
+                            <p class="t9">2022-10-22 14:22</p>
+                            <p class="t10">100억 이상 투자 하신다고 함</p>
+                        </li>
+                        <li class="table_con">
+                            <p class="t1">2</p>
+                            <p class="t2">홍길동</p>
+                            <p class="t3">010-1235-2456</p>
+                            <p class="t4">honggildong@naver.com</p>
+                            <p class="t5">MH</p>
+                            <p class="t6">MH0001</p>
+                            <p class="t7">100,000,000원</p>
+                            <p class="t8">2022-10-22</p>
+                            <p class="t9">2022-10-22 14:22</p>
+                            <p class="t10">100억 이상 투자 하신다고 함</p>
+                        </li>
+                        <li class="table_con">
+                            <p class="t1">1</p>
+                            <p class="t2">홍길동</p>
+                            <p class="t3">010-1235-2456</p>
+                            <p class="t4">honggildong@naver.com</p>
+                            <p class="t5">MH</p>
+                            <p class="t6">MH0001</p>
+                            <p class="t7">100,000,000원</p>
+                            <p class="t8">2022-10-22</p>
+                            <p class="t9">2022-10-22 14:22</p>
+                            <p class="t10">100억 이상 투자 하신다고 함</p>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="paging">
+                    <li><img src="./img/ico-left-arrow.svg" alt="left"></li>
+                    <li class="p_num on">1</li>
+                    <li class="p_num">2</li>
+                    <li class="p_num">3</li>
+                    <li class="p_num">4</li>
+                    <li class="p_num">5</li>
+                    <li><img src="./img/ico-right-arrow.svg" alt="right"></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

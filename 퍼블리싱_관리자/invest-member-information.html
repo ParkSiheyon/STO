@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부동산 STO - 관리자페이지</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/invest-member-information.css">
+    <script src="./script/jquery-3.6.0.js"></script>
+    <script src="./script/common.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">
+                <img src="./img/logo-header.svg" alt="logo">
+            </div>
+            <div class="line"></div>
+            <nav class="nav">
+                <ul>
+                    <li class="on">
+                        <div class="menu_icon"></div>
+                        <p>회원관리</p>
+                    </li>
+                    <li>
+                        <div class="menu_icon"></div>
+                        <p>투자내역조회</p>
+                    </li>
+                    <li>
+                        <div class="menu_icon"></div>
+                        <p>투자상품관리</p>
+                    </li>
+                    <li>
+                        <div class="menu_icon"></div>
+                        <p>토큰관리</p>
+                    </li>
+                    <li>
+                        <div class="menu_icon"></div>
+                        <p>메인화면관리</p>
+                    </li>
+                    <li>
+                        <div class="menu_icon"></div>
+                        <p>고객지원관리</p>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+
+            <div class="title_bar">
+                <div class="title">
+                    <div class="small_title">Pages / 회원관리</div>
+                    <h2>회원관리 - 투자회원</h2>
+                </div>
+                <div class="profile_bar">
+                    <div class="name_bar">
+                        <span class="bold">D.S</span>_master
+                    </div>
+                    <button class="logout_btn">로그아웃</button>
+                </div>
+            </div>
+
+            <div class="box top_tab">
+                <ul>
+                    <li class="on">개인회원</li>
+                    <li>중개사</li>
+                    <li>관리자</li>
+                </ul>
+            </div>
+
+            <div class="top_box">
+                <div class="box_half contents01">
+                    <h3>회원정보</h3>
+                    <div class="information">
+                        <ul class="left_box">
+                            <li>
+                                <p class="title">이메일</p>
+                                <p class="con">example@gmail.com</p>
+                            </li>
+                            <li>
+                                <p class="title">이름</p>
+                                <p class="con">홍길동</p>
+                            </li>
+                            <li>
+                                <p class="title">휴대폰번호</p>
+                                <p class="con">010-0976-1234</p>
+                            </li>
+                            <li>
+                                <p class="title">주소</p>
+                                <p class="con">서울 강남구 논현동 88-9<br>지하 1층 미디움 기술본부</p>
+                            </li>
+                            <li>
+                                <p class="title">가입일</p>
+                                <p class="con">2020년 08월 22일</p>
+                            </li>
+                            <li>
+                                <p class="title">마지막 접속일</p>
+                                <p class="con">2020년 08월 31일</p>
+                            </li>
+                            <li>
+                                <p class="title">중개사</p>
+                                <p class="con">MH</p>
+                            </li>
+                            <li>
+                                <p class="title">중개사코드</p>
+                                <p class="con">MH0001</p>
+                            </li>
+                        </ul>
+                        <ul class="right_box event_infor">
+                            <li>
+                                <p class="title_bold">이벤트 정보 수신</p>
+                            </li>
+                            <li>
+                                <p class="title">투자상품 정보</p>
+                                <div class="checkbox_big">
+                                    <input type="checkbox" name="checkbox" class="checkbox" id="cb2">
+                                    <label for="cb2"></label>
+                                    <label for="cb2" class="cb_txt_big">SMS</label>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="title">마케팅 정보</p>
+                                <div class="checkbox_big">
+                                    <input type="checkbox" name="checkbox" class="checkbox" id="cb3">
+                                    <label for="cb3"></label>
+                                    <label for="cb3" class="cb_txt_big">SMS</label>
+                                    <input type="checkbox" name="checkbox" class="checkbox" id="cb4">
+                                    <label for="cb4"></label>
+                                    <label for="cb4" class="cb_txt_big">이메일</label>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="title">투자알림 수신</p>
+                                <p class="con red">수신거부</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box_half contents02">
+                    <h3>투자정보</h3>
+                    <div class="information">
+                        <ul class="left_box">
+                            <li>
+                                <p class="title_bold">
+                                    투자자정보
+                                </p>
+                            </li>
+                            <li>
+                                <p class="title">직업</p>
+                                <p class="con">사무 종사자</p>
+                            </li>
+                            <li>
+                                <p class="title">거래목적</p>
+                                <p class="con">투자</p>
+                            </li>
+                            <li>
+                                <p class="title">자금출처</p>
+                                <p class="con">급여/아르바이트/연금소득</p>
+                            </li>
+                            <li>
+                                <p class="title">출금계좌</p>
+                                <p class="con">카카오뱅크 3333072772883 홍길동</p>
+                            </li>
+                            <li>
+                                <p class="title_bold">
+                                    투자정보
+                                </p>
+                            </li>
+                            <li>
+                                <p class="title">투자금액</p>
+                                <p class="con">100,000,000원</p>
+                            </li>
+                        </ul>
+                        <ul class="right_box">
+                            <li class="note_title">
+                                <p class="title_bold">비고</p>
+                                <button class="skyblue_line_btn">저장</button>
+                            </li>
+                            <li>
+                                <textarea>100억 이상 투자한다고 함</textarea>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box contents03">
+                <h3>리스트</h3>
+                <ul class="small_tab">
+                    <li class="on"><a href="#tab1" class="tab"> 투자내역</a></li>
+                    <li><a href="#tab2" class="tab">입금내역</a></li>
+                    <li><a href="#tab3" class="tab">지급내역</a></li>
+                    <li><a href="#tab4" class="tab">토큰 정보</a></li>
+                </ul>
+                <div class="cont_area">
+                    <div id="tab1" class="cont on">
+                        <div class="table table01">
+                            <ul>
+                                <li class="table_name">
+                                    <p class="t1">No</p>
+                                    <p class="t2">투자신청일시</p>
+                                    <p class="t3">상품명</p>
+                                    <p class="t4">투자기간</p>
+                                    <p class="t5">투자금액</p>
+                                    <p class="t6">토큰개수</p>
+                                    <p class="t7">예상 수익률(연)</p>
+                                    <p class="t8">상태</p>
+                                </li>
+                                <li class="table_con">
+                                    <p class="t1">3</p>
+                                    <p class="t2">2022-07-07 18:49</p>
+                                    <p class="t3">상품명</p>
+                                    <p class="t4">5</p>
+                                    <p class="t5">100,000,000</p>
+                                    <p class="t6">1,000,000 DST</p>
+                                    <p class="t7">10%</p>
+                                    <p class="t8"></p>
+                                </li>
+                                <li class="table_con">
+                                    <p class="t1">3</p>
+                                    <p class="t2">2022-07-07 18:49</p>
+                                    <p class="t3">상품명</p>
+                                    <p class="t4">5</p>
+                                    <p class="t5">100,000,000</p>
+                                    <p class="t6">1,000,000 DST</p>
+                                    <p class="t7">10%</p>
+                                    <p class="t8 red">( )</p>
+                                </li>
+                                <li class="table_con">
+                                    <p class="t1">3</p>
+                                    <p class="t2">2022-07-07 18:49</p>
+                                    <p class="t3">상품명</p>
+                                    <p class="t4">5</p>
+                                    <p class="t5">100,000,000</p>
+                                    <p class="t6">1,000,000 DST</p>
+                                    <p class="t7">10%</p>
+                                    <p class="t8"></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="paging">
+                            <li><img src="./img/ico-left-arrow.svg" alt="left"></li>
+                            <li class="p_num on">1</li>
+                            <li class="p_num">2</li>
+                            <li class="p_num">3</li>
+                            <li class="p_num">4</li>
+                            <li class="p_num">5</li>
+                            <li><img src="./img/ico-right-arrow.svg" alt="right"></li>
+                        </ul>
+                    </div>
+                    <div id="tab2" class="cont">
+                        <div class="table table02">
+                            <ul>
+                                <li class="table_name">
+                                    <p class="t1">No</p>
+                                    <p class="t2">거래일</p>
+                                    <p class="t3">상품명</p>
+                                    <p class="t4">구분</p>
+                                    <p class="t5">금액(원)</p>
+                                </li>
+                                <li class="table_con">
+                                    <p class="t1">1</p>
+                                    <p class="t2">2022-03-01</p>
+                                    <p class="t3">천안시 성정동 주상복합 건립사업</p>
+                                    <p class="t4">투자금 입금</p>
+                                    <p class="t5">100,000,000원</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="paging">
+                            <li><img src="./img/ico-left-arrow.svg" alt="left"></li>
+                            <li class="p_num on">1</li>
+                            <li class="p_num">2</li>
+                            <li class="p_num">3</li>
+                            <li class="p_num">4</li>
+                            <li class="p_num">5</li>
+                            <li><img src="./img/ico-right-arrow.svg" alt="right"></li>
+                        </ul>
+                    </div>
+                    <div id="tab3" class="cont">
+                        <div class="table table03">
+                            <ul>
+                                <li class="table_name">
+                                    <p class="t1">No</p>
+                                    <p class="t2">거래일시</p>
+                                    <p class="t3">상품명</p>
+                                    <p class="t4">구분</p>
+                                    <p class="t5">지급계좌</p>
+                                    <p class="t6">금액(원)</p>
+                                </li>
+                                <li class="table_con">
+                                    <p class="t1">3</p>
+                                    <p class="t2">2022-03-31 18:49</p>
+                                    <p class="t3">천안시 상정동 주상복합 건립사업</p>
+                                    <p class="t4">배당금</p>
+                                    <p class="t5">카카오뱅크 3333-02-0500531</p>
+                                    <p class="t6 blue">10,000,000원</p>
+                                </li>
+                                <li class="table_con">
+                                    <p class="t1">2</p>
+                                    <p class="t2">2022-03-31 18:49</p>
+                                    <p class="t3">천안시 상정동 주상복합 건립사업</p>
+                                    <p class="t4">배당금</p>
+                                    <p class="t5">카카오뱅크 3333-02-0500531</p>
+                                    <p class="t6 blue">10,000,000원</p>
+                                </li>
+                            </ul>
+                            <button class="skyblue_line_btn">지급내역등록</button>
+                        </div>
+                        <ul class="paging">
+                            <li><img src="./img/ico-left-arrow.svg" alt="left"></li>
+                            <li class="p_num on">1</li>
+                            <li class="p_num">2</li>
+                            <li class="p_num">3</li>
+                            <li class="p_num">4</li>
+                            <li class="p_num">5</li>
+                            <li><img src="./img/ico-right-arrow.svg" alt="right"></li>
+                    </div>
+                    <div id="tab4" class="cont">
+                        <div class="table table04">
+                            <ul>
+                                <li class="table_name">
+                                    <p class="t1">No</p>
+                                    <p class="t2">토큰명</p>
+                                    <p class="t3">투자상품명</p>
+                                    <p class="t4">토큰개수</p>
+                                    <p class="t5">토큰 지급일시</p>
+                                </li>
+                                <li class="table_con">
+                                    <p class="t1">1</p>
+                                    <p class="t2">EB225863</p>
+                                    <p class="t3 blue">천안시 성정동 주상복합 건립사업</p>
+                                    <p class="t4">1,000,000개</p>
+                                    <p class="t5">2022-08-30 11:30:23</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="paging">
+                            <li><img src="./img/ico-left-arrow.svg" alt="left"></li>
+                            <li class="p_num on">1</li>
+                            <li class="p_num">2</li>
+                            <li class="p_num">3</li>
+                            <li class="p_num">4</li>
+                            <li class="p_num">5</li>
+                            <li><img src="./img/ico-right-arrow.svg" alt="right"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

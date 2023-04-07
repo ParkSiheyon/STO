@@ -1,0 +1,344 @@
+@charset 'utf-8';
+
+/* index */
+
+button, a, input, select, label {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.hd_wrap {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 1920px;
+    border-bottom: 1px solid rgba(254, 254, 255, 0.3);
+}
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    margin: 0;
+    }
+
+html,body {
+    font-size: 10px;
+    }
+
+    
+.top {
+    transform: translateY(-3rem);
+}
+
+.wh {
+    color: #FEFEFF;
+}
+
+.bl {
+    color: #222222;
+}
+
+.or {
+    color: #FF9122;
+}
+
+.bg_or {
+    background: linear-gradient(180deg, #FFA142 0%, #EB7D17 100%);
+    box-shadow: 5px 0px 64px rgba(0, 0, 0, 0.3);
+}
+
+
+.bg_bl {
+    background: linear-gradient(180deg, #222222 0%, #4F4F4F 100%);
+    box-shadow: 5px 0px 64px rgba(0, 0, 0, 0.3);
+    color: #FEFEFF;
+}
+
+/* section01 */
+
+
+.section_01 {
+    height: 60rem;
+    background: url(../img/img-back_mainslide.svg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_01 h2 p {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.8rem;
+    color: var(--white);
+}
+
+.section_01 h2 p.section01_title {
+    font-size: 8rem;
+    font-weight: 800;
+}
+
+/* section02 */
+
+.section_02 {
+    height: 70rem;
+    background: url(../img/img-back_investgoods.svg);
+}
+
+.section2_wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem;
+}
+
+.sec2_text h3 {
+    color: #FF9122;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 5.8rem;
+}
+
+.sec2_title {
+    display: flex;
+    flex-direction: column;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-bottom: 5.6rem;
+}
+
+.sec2_text_list {
+    font-size: 2rem;
+    line-height: 130%;
+    color: #707072;
+}
+
+.sec2_period {
+    display: flex;
+    gap: 1.3rem
+}
+
+.period_wrap {
+    display: flex;
+    width: 31rem;
+    height: 49rem;
+    flex-direction: column;
+    padding: 5.2rem 2.6rem;
+    border-radius: 30px 0px;
+}
+
+.period_list .list_title {
+    text-align: center;
+}
+
+.list_title p:nth-of-type(1) {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.list_title p:nth-of-type(2) {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.list_subtitle {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.8rem 1.2rem;
+    border-bottom: 1px solid #575759;
+}
+
+.percent {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.period_list {
+    margin-bottom: 3rem;
+}
+
+.sec2_btn {
+    display: flex;
+    justify-content: center;
+}
+
+/* section03 */
+
+.section_03 {
+    height: 60rem;
+    padding: 10rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sec3_title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2.4rem;
+}
+
+.section_03 h3 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+}
+
+.sec3_explantion {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #707072;
+    margin-bottom: 3.6rem;
+}
+
+.section_03 .sec2_btn {
+    justify-content: flex-start;
+}
+
+.section_03 .sec2_btn button {
+    box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.15);
+}
+
+.bg_orbl.wh {
+    color: #ffffff;
+}
+
+/* section04 */
+
+.section_04 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sec4_list {
+    display: flex;
+    position: relative;
+}
+
+.sec4_text {
+    position: absolute;
+    z-index: 99;
+    padding: 9.5rem 10rem;
+}
+
+.list_02 {
+    position: relative;
+}
+
+.list02_text {
+    position: absolute;
+    padding: 5rem;
+    bottom: 0;
+    color: var(--white);
+}
+
+.list02_text p:nth-of-type(1) {
+    font-size: 6rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.list02_text p:nth-of-type(2) {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.sec4_text > p:nth-of-type(1) {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--point);
+    margin-bottom: 2.4rem;
+}
+
+.sec4_text h3 p {
+    display: flex;
+    flex-direction: column;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* section05 */
+
+.section_05 {
+    height: 60rem;
+    background: url(../img/img-sec5-background.svg) center no-repeat;
+    background-size: cover;
+}
+
+.sec5_wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8.3rem 10rem;
+}
+
+.sec5_wrap h3 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--btn-bg2);
+    line-height: 1.3;
+    padding-bottom: 6.6rem;
+}
+
+.sec5_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_03 {
+    width: 30rem;
+    background-color: rgba(254, 254, 255, 0.5);
+    border: 1px solid #E0E0E5;
+    box-shadow: -1px 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.list_03 > div {
+    overflow: hidden;
+}
+
+.list_03 img {
+    transition: 0.5s;
+}
+
+.list_03 img:hover {
+    transform: scale(1.5);
+}
+
+.list_03 > p  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 3.6rem;
+}
+
+
+.list_03 > p strong {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--btn-bg2);
+    padding-bottom: 1.1rem;
+}
+
+.list_03 > p {
+    font-size: 1.6rem;
+    color: var(--black);
+    line-height: 1.3;
+}
